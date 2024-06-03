@@ -1,0 +1,53 @@
+ion-content {
+    --background: #e9e9e9;
+  
+    .grocery-bag {
+      text-align: center;
+      margin-top: 20px;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+    .Titulo {
+      text-align: center;
+      color: #333;
+      font-size:50px;
+
+      h1 {
+        font-size: 100px;
+      }
+    }
+  
+    .description {
+      padding: 5px;
+      text-align: center;
+      color: #333;
+  
+      p {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+        font-size: 16px;
+      }
+    }
+  
+    ion-button {
+        --background: #616bff; /* Define a cor do botão como um verde semelhante ao da imagem */
+        --border-radius:40px; 
+        --padding-start: 10x;
+        --padding-end: 10px;
+        font-size: 16px;
+        color: white; 
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: none; 
+        }
+      }
+}

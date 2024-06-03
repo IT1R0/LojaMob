@@ -1,0 +1,29 @@
+ion-card.category-button {
+    --background: transparent;
+    --border-radius: 10px;
+    --box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    img {
+      max-width: 80px;
+      height: auto;
+    }
+  
+    ion-card-content {
+      font-size: 16px;
+      color: #333;
+      margin-top: 10px;
+    }
+  }
+  
+  .fruits {
+    --background: #FFA726; /* Cor para Frutas */
+  }
+  
+  .various {
+    --background: #66BB6A; /* Cor para Diversos */
+  }
+  
