@@ -1,17 +1,48 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <h1 style="color: black;">Meu Carrinho</h1>
+  <ion-list>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <ion-item color="transparent">
+      <ion-thumbnail slot="start">
+        <img src="assets/frutas.png" alt="Avocado">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Avocado</h2>
+        <p>$5.00 (5 items)</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color=transparent>Editar</ion-button>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/diversos.png" alt="Other Item">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Other Item</h2>
+        <p>$35.40</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color=transparent>Editar</ion-button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/acougue.png" alt="Meat">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Meat</h2>
+        <p>$56.44 (3 items)</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color=transparent>Editar</ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-item lines="none" class="baixo">
+    <ion-label>Total a pagar <br>$141.84</ion-label>
+    <ion-button expand="full" color=#616bff>Pagar agora</ion-button>
+  </ion-item>
 </ion-content>
